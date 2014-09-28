@@ -34,6 +34,9 @@ public class CalculatorModelTest {
 		cm.addTwoNumbers(4, 6);
 		int result = cm.getCalculationValue();
 		assertTrue(result == 10);
+		cm.addTwoNumbers(6, 10);
+		result = cm.getCalculationValue();
+		assertTrue(result == 16);
 	}
 
 }
